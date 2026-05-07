@@ -10,7 +10,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
   const [loading, setLoading] = useState(false);
 
-  const API_BASE = "http://localhost:5001/api";
+  const API_BASE = "https://teamflow-project-production-bcae.up.railway.app/api";
 
   const fetchTasks = async () => {
     setLoading(true);
